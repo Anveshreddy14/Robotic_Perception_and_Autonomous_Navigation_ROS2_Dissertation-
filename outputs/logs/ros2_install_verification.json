@@ -1,0 +1,42 @@
+{
+  "experiment_seed": 20260912,
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "linux",
+  "ros_distro": "humble",
+  "ros_version": "2",
+  "rmw_implementation": "",
+  "commands": [
+    {
+      "cmd": [
+        "ros2",
+        "pkg",
+        "list"
+      ],
+      "returncode": 0,
+      "stdout": "action_msgs\nactionlib_msgs\nament_cmake\nament_cmake_auto\nament_cmake_copyright\nament_cmake_core\nament_cmake_cppcheck\nament_cmake_cpplint\nament_cmake_export_definitions\nament_cmake_export_dependencies\nament_cmake_export_include_directories\nament_cmake_export_interfaces\nament_cmake_export_libraries\nament_cmake_export_link_flags\nament_cmake_export_targets\nament_cmake_flake8\nament_cmake_gen_version_h\nament_cmake_gmock\nament_cmake_gtest\nament_cmake_include_directories\nament_cmake_libraries\nament_cmake_lint_cmake\nament_cmake_pep257\nament_cmake_pytest\nament_cmake_python\nament_cmake_ros\nament_cmake_target_dependencies\nament_cmake_test\nament_cmake_uncrustify\nament_cmake_version\nament_cmake_xmllint\nament_copyright\nament_cppcheck\nament_cpplint\nament_flake8\nament_index_cpp\nament_index_python\nament_lint\nament_lint_auto\nament_lint_cmake\nament_lint_common\nament_package\nament_pep257\nament_uncrustify\nament_xmllint\nangles\nbehaviortree_cpp_v3\nbond\nbondcpp\nbuiltin_interfaces\nclass_loader\ncommon_interfaces\ncomposition_interfaces\nconsole_bridge_vendor\ncostmap_queue\ncv_bridge\ndemo_nodes_cpp\ndemo_nodes_py\ndiagnostic_msgs\ndiagnostic_updater\ndomain_coordinator\ndwb_core\ndwb_critics\ndwb_msgs\ndwb_plugins\neigen3_cmake_module\nexample_interfaces\nfastrtps_cmake_module\ngeometry2\ngeometry_msgs\nimage_transport\ninteractive_markers\nkdl_parser\nkeyboard_handler\nlaser_geometry\nlaunch\nlaunch_ros\nlaunch_testing\nlaunch_testing_ament_cmake\nlaunch_testing_ros\nlaunch_xml\nlaunch_yaml\nlibcurl_vendor\nlibstatistics_collector\nlibyaml_vendor\nlifecycle_msgs\nmap_msgs\nmessage_filters\nnav2_amcl\nnav2_behavior_tree\nnav2_behaviors\nnav2_bringup\nnav2_bt_navigator\nnav2_collision_monitor\nnav2_common\nnav2_constrained_smoother\nnav2_controller\nnav2_core\nnav2_costmap_2d\nnav2_dwb_controller\nnav2_lifecycle_manager\nnav2_map_server\nnav2_mppi_controller\nnav2_msgs\nnav2_navfn_planner\nnav2_planner\nnav2_regulated_pure_pursuit_controller\nnav2_rotation_shim_controller\nnav2_route\nnav2_rviz_plugins\nnav2_simple_commander\nnav2_smac_planner\nnav2_smoother\nnav2_theta_star_planner\nnav2_util\nnav2_velocity_smoother\nnav2_voxel_grid\nnav2_waypoint_follower\nnav_2d_msgs\nnav_2d_utils\nnav_msgs\nnavigation2\nompl\norocos_kdl_vendor\nosrf_pycommon\npluginlib\npybind11_vendor\npython_cmake_module\npython_orocos_kdl_vendor\nrcl\nrcl_action\nrcl_interfaces\nrcl_lifecycle\nrcl_logging_interface\nrcl_logging_spdlog\nrcl_yaml_param_parser\nrclcpp\nrclcpp_action\nrclcpp_components\nrclcpp_lifecycle\nrclpy\nrcpputils\nrcutils\nresource_retriever\nrmw\nrmw_dds_common\nrmw_fastrtps_cpp\nrmw_fastrtps_shared_cpp\nrmw_implementation\nrmw_implementation_cmake\nrobot_state_publisher\nros2action\nros2bag\nros2cli\nros2cli_common_extensions\nros2component\nros2doctor\nros2interface\nros2launch\nros2lifecycle\nros2multicast\nros2node\nros2param\nros2pkg\nros2plugin\nros2run\nros2service\nros2topic\nros_base\nros_core\nros_environment\nros_workspace\nrosbag2\nrosbag2_compression\nrosbag2_compression_zstd\nrosbag2_cpp\nrosbag2_interfaces\nrosbag2_py\nrosbag2_storage\nrosbag2_storage_default_plugins\nrosbag2_transport\nrosgraph_msgs\nrosidl_adapter\nrosidl_cli\nrosidl_cmake\nrosidl_default_generators\nrosidl_default_runtime\nrosidl_generator_c\nrosidl_generator_cpp\nrosidl_generator_py\nrosidl_generator_rs\nrosidl_parser\nrosidl_runtime_c\nrosidl_runtime_cpp\nrosidl_runtime_py\nrosidl_typesupport_c\nrosidl_typesupport_cpp\nrosidl_typesupport_fastrtps_c\nrosidl_typesupport_fastrtps_cpp\nrosidl_typesupport_interface\nrosidl_typesupport_introspection_c\nrosidl_typesupport_introspection_cpp\nrpyutils\nrviz_assimp_vendor\nrviz_common\nrviz_default_plugins\nrviz_ogre_vendor\nrviz_rendering\nsensor_msgs\nsensor_msgs_py\nshape_msgs\nshared_queues_vendor\nslam_toolbox\nsmclib\nspdlog_vendor\nsqlite3_vendor\nsros2\nsros2_cmake\nstatistics_msgs\nstd_msgs\nstd_srvs\nstereo_msgs\ntf2\ntf2_bullet\ntf2_eigen\ntf2_eigen_kdl\ntf2_geometry_msgs\ntf2_kdl\ntf2_msgs\ntf2_py\ntf2_ros\ntf2_ros_py\ntf2_sensor_msgs\ntf2_tools\ntinyxml2_vendor\ntinyxml_vendor\ntracetools\ntrajectory_msgs\nuncrustify_vendor\nunique_identifier_msgs\nurdf\nurdf_parser_plugin\nvisualization_msgs\nyaml_cpp_vendor\nzstd_vendor",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "ros2",
+        "interface",
+        "show",
+        "nav_msgs/msg/OccupancyGrid"
+      ],
+      "returncode": 0,
+      "stdout": "# This represents a 2-D grid map\nstd_msgs/Header header\n\tbuiltin_interfaces/Time stamp\n\t\tint32 sec\n\t\tuint32 nanosec\n\tstring frame_id\n\n# MetaData for the map\nMapMetaData info\n\tbuiltin_interfaces/Time map_load_time\n\t\tint32 sec\n\t\tuint32 nanosec\n\tfloat32 resolution\n\tuint32 width\n\tuint32 height\n\tgeometry_msgs/Pose origin\n\t\tPoint position\n\t\t\tfloat64 x\n\t\t\tfloat64 y\n\t\t\tfloat64 z\n\t\tQuaternion orientation\n\t\t\tfloat64 x 0\n\t\t\tfloat64 y 0\n\t\t\tfloat64 z 0\n\t\t\tfloat64 w 1\n\n# The map data, in row-major order, starting with (0,0).\n# Cell (1, 0) will be listed second, representing the next cell in the x direction.\n# Cell (0, 1) will be at the index equal to info.width, followed by (1, 1).\n# The values inside are application dependent, but frequently,\n# 0 represents unoccupied, 1 represents definitely occupied, and\n# -1 represents unknown.\nint8[] data",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "ros2",
+        "interface",
+        "show",
+        "sensor_msgs/msg/LaserScan"
+      ],
+      "returncode": 0,
+      "stdout": "# Single scan from a planar laser range-finder\n#\n# If you have another ranging device with different behavior (e.g. a sonar\n# array), please find or create a different message, since applications\n# will make fairly laser-specific assumptions about this data\n\nstd_msgs/Header header # timestamp in the header is the acquisition time of\n\tbuiltin_interfaces/Time stamp\n\t\tint32 sec\n\t\tuint32 nanosec\n\tstring frame_id\n                             # the first ray in the scan.\n                             #\n                             # in frame frame_id, angles are measured around\n                             # the positive Z axis (counterclockwise, if Z is up)\n                             # with zero angle being forward along the x axis\n\nfloat32 angle_min            # start angle of the scan [rad]\nfloat32 angle_max            # end angle of the scan [rad]\nfloat32 angle_increment      # angular distance between measurements [rad]\n\nfloat32 time_increment       # time between measurements [seconds] - if your scanner\n                             # is moving, this will be used in interpolating position\n                             # of 3d points\nfloat32 scan_time            # time between scans [seconds]\n\nfloat32 range_min            # minimum range value [m]\nfloat32 range_max            # maximum range value [m]\n\nfloat32[] ranges             # range data [m]\n                             # (Note: values < range_min or > range_max should be discarded)\nfloat32[] intensities        # intensity data [device-specific units].  If your\n                             # device does not provide intensities, please leave\n                             # the array empty.",
+      "stderr": ""
+    }
+  ]
+}

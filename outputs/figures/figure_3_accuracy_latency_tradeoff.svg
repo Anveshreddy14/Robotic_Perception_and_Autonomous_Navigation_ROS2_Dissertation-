@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="500" viewBox="0 0 860 500">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1F2933}.title{font-size:22px;font-weight:700}.label{font-size:13px}.small{font-size:11px;fill:#52606D}.axis{stroke:#BCCCDC;stroke-width:1}.navy{fill:#183B56}.blue{fill:#2F80ED}.teal{fill:#56B4A9}.pale{fill:#EAF2F8}.grid{stroke:#BCCCDC;stroke-width:1}</style>
+<text x="40" y="44" class="title">Accuracy-Latency Trade-off</text>
+<line x1="90" y1="382" x2="750" y2="382" class="axis"/>
+<line x1="90" y1="82" x2="90" y2="382" class="axis"/>
+<circle cx="138.0" cy="172.5" r="10" fill="#183B56"/>
+<text x="152.0" y="177.5" class="label">a star</text>
+<circle cx="663.9" cy="169.0" r="10" fill="#2F80ED"/>
+<text x="677.9" y="174.0" class="label">dijkstra navfn style</text>
+<circle cx="109.8" cy="169.0" r="10" fill="#56B4A9"/>
+<text x="123.8" y="174.0" class="label">weighted a star</text>
+<text x="355.0" y="430" class="small">Mean planning latency (ms)</text>
+<text x="28" y="92" class="small" transform="rotate(-90 28,92)">Success rate</text>
+</svg>

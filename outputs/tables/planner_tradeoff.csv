@@ -1,0 +1,4 @@
+planner,success_rate,decision_accuracy,mean_latency_ms,p95_latency_ms,fps,mean_path_length_ratio
+a_star,0.698225,0.711111,1.572158,3.368989,636.068542,1.000564
+dijkstra_navfn_style,0.710059,0.711111,18.813227,23.125891,53.154092,1.000564
+weighted_a_star,0.710059,0.711111,0.648540,0.824212,1541.924622,1.004645

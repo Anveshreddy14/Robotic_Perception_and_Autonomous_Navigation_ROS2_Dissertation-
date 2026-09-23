@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1F2933}.title{font-size:22px;font-weight:700}.label{font-size:13px}.small{font-size:11px;fill:#52606D}.axis{stroke:#BCCCDC;stroke-width:1}.navy{fill:#183B56}.blue{fill:#2F80ED}.teal{fill:#56B4A9}.pale{fill:#EAF2F8}.grid{stroke:#BCCCDC;stroke-width:1}</style>
+<text x="40" y="44" class="title">Navigation Success by Condition</text>
+<line x1="86" y1="422" x2="886" y2="422" class="axis"/>
+<line x1="86" y1="82" x2="86" y2="422" class="axis"/>
+<text x="102.0" y="457" class="small" transform="rotate(32 102.0,457)">baseline</text>
+<rect x="102.0" y="127.3" width="23.7" height="294.7" fill="#183B56"/>
+<rect x="128.7" y="116.0" width="23.7" height="306.0" fill="#2F80ED"/>
+<rect x="155.3" y="138.7" width="23.7" height="283.3" fill="#56B4A9"/>
+<text x="235.33333333333334" y="457" class="small" transform="rotate(32 235.33333333333334,457)">cluttered_static</text>
+<rect x="235.3" y="150.0" width="23.7" height="272.0" fill="#183B56"/>
+<rect x="262.0" y="172.7" width="23.7" height="249.3" fill="#2F80ED"/>
+<rect x="288.7" y="172.7" width="23.7" height="249.3" fill="#56B4A9"/>
+<text x="368.6666666666667" y="457" class="small" transform="rotate(32 368.6666666666667,457)">sensor_noise</text>
+<rect x="368.7" y="195.3" width="23.7" height="226.7" fill="#183B56"/>
+<rect x="395.3" y="195.3" width="23.7" height="226.7" fill="#2F80ED"/>
+<rect x="422.0" y="172.7" width="23.7" height="249.3" fill="#56B4A9"/>
+<text x="502.0" y="457" class="small" transform="rotate(32 502.0,457)">range_limited</text>
+<rect x="502.0" y="172.7" width="23.7" height="249.3" fill="#183B56"/>
+<rect x="528.7" y="240.7" width="23.7" height="181.3" fill="#2F80ED"/>
+<rect x="555.3" y="252.0" width="23.7" height="170.0" fill="#56B4A9"/>
+<text x="635.3333333333334" y="457" class="small" transform="rotate(32 635.3333333333334,457)">localisation_drift</text>
+<rect x="635.3" y="252.0" width="23.7" height="170.0" fill="#183B56"/>
+<rect x="662.0" y="218.0" width="23.7" height="204.0" fill="#2F80ED"/>
+<rect x="688.7" y="172.7" width="23.7" height="249.3" fill="#56B4A9"/>
+<text x="768.6666666666667" y="457" class="small" transform="rotate(32 768.6666666666667,457)">dynamic_intrusion</text>
+<rect x="768.7" y="189.4" width="23.7" height="232.6" fill="#183B56"/>
+<rect x="795.3" y="153.6" width="23.7" height="268.4" fill="#2F80ED"/>
+<rect x="822.0" y="171.5" width="23.7" height="250.5" fill="#56B4A9"/>
+<line x1="82" y1="422.0" x2="86" y2="422.0" class="axis"/><text x="42" y="426.0" class="small">0%</text>
+<line x1="82" y1="354.0" x2="86" y2="354.0" class="axis"/><text x="42" y="358.0" class="small">20%</text>
+<line x1="82" y1="286.0" x2="86" y2="286.0" class="axis"/><text x="42" y="290.0" class="small">40%</text>
+<line x1="82" y1="218.0" x2="86" y2="218.0" class="axis"/><text x="42" y="222.0" class="small">60%</text>
+<line x1="82" y1="150.0" x2="86" y2="150.0" class="axis"/><text x="42" y="154.0" class="small">80%</text>
+<line x1="82" y1="82.0" x2="86" y2="82.0" class="axis"/><text x="42" y="86.0" class="small">100%</text>
+<rect x="630" y="32" width="12" height="12" fill="#183B56"/>
+<text x="650" y="43" class="small">dijkstra navfn style</text>
+<rect x="630" y="52" width="12" height="12" fill="#2F80ED"/>
+<text x="650" y="63" class="small">a star</text>
+<rect x="630" y="72" width="12" height="12" fill="#56B4A9"/>
+<text x="650" y="83" class="small">weighted a star</text>
+</svg>

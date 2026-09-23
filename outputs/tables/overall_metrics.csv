@@ -1,0 +1,4 @@
+planner,trials,feasible_trials,success_rate,decision_accuracy,mean_latency_ms,median_latency_ms,std_latency_ms,p95_latency_ms,fps,mean_path_length_ratio,mean_clearance_cells,mean_expansions
+a_star,180,169,0.698225,0.711111,1.572158,1.255932,1.129856,3.368989,636.068542,1.000564,1.047222,162.361111
+dijkstra_navfn_style,180,169,0.710059,0.711111,18.813227,18.799114,3.868822,23.125891,53.154092,1.000564,1.051111,2665.233333
+weighted_a_star,180,169,0.710059,0.711111,0.648540,0.577821,0.728555,0.824212,1541.924622,1.004645,1.045000,56.644444

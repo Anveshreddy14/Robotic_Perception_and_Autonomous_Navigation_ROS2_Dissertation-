@@ -1,0 +1,10 @@
+planner,metric,n,mean,ci95_low,ci95_high,method
+a_star,success_rate,169,0.698225,0.627219,0.763314,"non-parametric bootstrap, 800 resamples, fixed seed"
+a_star,mean_latency_ms,180,1.572158,1.435396,1.735138,"non-parametric bootstrap, 800 resamples, fixed seed"
+a_star,decision_accuracy,180,0.711111,0.644444,0.772222,"non-parametric bootstrap, 800 resamples, fixed seed"
+dijkstra_navfn_style,success_rate,169,0.710059,0.639053,0.775148,"non-parametric bootstrap, 800 resamples, fixed seed"
+dijkstra_navfn_style,mean_latency_ms,180,18.813227,18.290848,19.426444,"non-parametric bootstrap, 800 resamples, fixed seed"
+dijkstra_navfn_style,decision_accuracy,180,0.711111,0.644444,0.777778,"non-parametric bootstrap, 800 resamples, fixed seed"
+weighted_a_star,success_rate,169,0.710059,0.644822,0.781065,"non-parametric bootstrap, 800 resamples, fixed seed"
+weighted_a_star,mean_latency_ms,180,0.648540,0.583635,0.763003,"non-parametric bootstrap, 800 resamples, fixed seed"
+weighted_a_star,decision_accuracy,180,0.711111,0.644444,0.772222,"non-parametric bootstrap, 800 resamples, fixed seed"

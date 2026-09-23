@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="520" viewBox="0 0 930 520">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1F2933}.title{font-size:22px;font-weight:700}.label{font-size:13px}.small{font-size:11px;fill:#52606D}.axis{stroke:#BCCCDC;stroke-width:1}.navy{fill:#183B56}.blue{fill:#2F80ED}.teal{fill:#56B4A9}.pale{fill:#EAF2F8}.grid{stroke:#BCCCDC;stroke-width:1}</style>
+<text x="40" y="44" class="title">Perception Reliability by Condition</text>
+<line x1="86" y1="392" x2="846" y2="392" class="axis"/>
+<line x1="86" y1="82" x2="86" y2="392" class="axis"/>
+<text x="104.0" y="427" class="small" transform="rotate(30 104.0,427)">baseline</text>
+<rect x="104.0" y="95.2" width="22.3" height="296.8" fill="#183B56"/>
+<rect x="129.3" y="93.7" width="22.3" height="298.3" fill="#2F80ED"/>
+<rect x="154.7" y="94.5" width="22.3" height="297.5" fill="#56B4A9"/>
+<text x="230.66666666666669" y="427" class="small" transform="rotate(30 230.66666666666669,427)">cluttered_static</text>
+<rect x="230.7" y="94.4" width="22.3" height="297.6" fill="#183B56"/>
+<rect x="256.0" y="98.5" width="22.3" height="293.5" fill="#2F80ED"/>
+<rect x="281.3" y="96.5" width="22.3" height="295.5" fill="#56B4A9"/>
+<text x="357.33333333333337" y="427" class="small" transform="rotate(30 357.33333333333337,427)">dynamic_intrusion</text>
+<rect x="357.3" y="108.0" width="22.3" height="284.0" fill="#183B56"/>
+<rect x="382.7" y="103.8" width="22.3" height="288.2" fill="#2F80ED"/>
+<rect x="408.0" y="105.9" width="22.3" height="286.1" fill="#56B4A9"/>
+<text x="484.0" y="427" class="small" transform="rotate(30 484.0,427)">localisation_drift</text>
+<rect x="484.0" y="125.1" width="22.3" height="266.9" fill="#183B56"/>
+<rect x="509.3" y="114.2" width="22.3" height="277.8" fill="#2F80ED"/>
+<rect x="534.7" y="119.8" width="22.3" height="272.2" fill="#56B4A9"/>
+<text x="610.6666666666667" y="427" class="small" transform="rotate(30 610.6666666666667,427)">range_limited</text>
+<rect x="610.7" y="110.1" width="22.3" height="281.9" fill="#183B56"/>
+<rect x="636.0" y="116.8" width="22.3" height="275.2" fill="#2F80ED"/>
+<rect x="661.3" y="113.5" width="22.3" height="278.5" fill="#56B4A9"/>
+<text x="737.3333333333334" y="427" class="small" transform="rotate(30 737.3333333333334,427)">sensor_noise</text>
+<rect x="737.3" y="140.2" width="22.3" height="251.8" fill="#183B56"/>
+<rect x="762.7" y="114.7" width="22.3" height="277.3" fill="#2F80ED"/>
+<rect x="788.0" y="128.1" width="22.3" height="263.9" fill="#56B4A9"/>
+<line x1="82" y1="392.0" x2="86" y2="392.0" class="axis"/><text x="42" y="396.0" class="small">0%</text>
+<line x1="82" y1="330.0" x2="86" y2="330.0" class="axis"/><text x="42" y="334.0" class="small">20%</text>
+<line x1="82" y1="268.0" x2="86" y2="268.0" class="axis"/><text x="42" y="272.0" class="small">40%</text>
+<line x1="82" y1="206.0" x2="86" y2="206.0" class="axis"/><text x="42" y="210.0" class="small">60%</text>
+<line x1="82" y1="144.0" x2="86" y2="144.0" class="axis"/><text x="42" y="148.0" class="small">80%</text>
+<line x1="82" y1="82.0" x2="86" y2="82.0" class="axis"/><text x="42" y="86.0" class="small">100%</text>
+<rect x="630" y="32" width="12" height="12" fill="#183B56"/>
+<text x="650" y="43" class="small">PRECISION</text>
+<rect x="630" y="52" width="12" height="12" fill="#2F80ED"/>
+<text x="650" y="63" class="small">RECALL</text>
+<rect x="630" y="72" width="12" height="12" fill="#56B4A9"/>
+<text x="650" y="83" class="small">F1</text>
+</svg>
