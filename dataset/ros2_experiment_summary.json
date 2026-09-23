@@ -1,0 +1,87 @@
+{
+  "seed": 20260912,
+  "grid_size": [
+    58,
+    58
+  ],
+  "trials_per_condition": 30,
+  "conditions": [
+    {
+      "name": "baseline",
+      "obstacle_p": 0.095,
+      "fp_rate": 0.003,
+      "fn_rate": 0.01,
+      "max_range": 46,
+      "drift_cells": 0,
+      "dynamic_p": 0.0,
+      "blocked_p": 0.0
+    },
+    {
+      "name": "cluttered_static",
+      "obstacle_p": 0.155,
+      "fp_rate": 0.006,
+      "fn_rate": 0.02,
+      "max_range": 44,
+      "drift_cells": 0,
+      "dynamic_p": 0.04,
+      "blocked_p": 0.02
+    },
+    {
+      "name": "sensor_noise",
+      "obstacle_p": 0.12,
+      "fp_rate": 0.03,
+      "fn_rate": 0.07,
+      "max_range": 42,
+      "drift_cells": 0,
+      "dynamic_p": 0.02,
+      "blocked_p": 0.0
+    },
+    {
+      "name": "range_limited",
+      "obstacle_p": 0.125,
+      "fp_rate": 0.01,
+      "fn_rate": 0.045,
+      "max_range": 24,
+      "drift_cells": 0,
+      "dynamic_p": 0.03,
+      "blocked_p": 0.0
+    },
+    {
+      "name": "localisation_drift",
+      "obstacle_p": 0.125,
+      "fp_rate": 0.012,
+      "fn_rate": 0.045,
+      "max_range": 40,
+      "drift_cells": 2,
+      "dynamic_p": 0.03,
+      "blocked_p": 0.0
+    },
+    {
+      "name": "dynamic_intrusion",
+      "obstacle_p": 0.12,
+      "fp_rate": 0.01,
+      "fn_rate": 0.03,
+      "max_range": 40,
+      "drift_cells": 0,
+      "dynamic_p": 0.38,
+      "blocked_p": 0.04
+    }
+  ],
+  "planners": [
+    "dijkstra_navfn_style",
+    "a_star",
+    "weighted_a_star"
+  ],
+  "ros_message_probe": {
+    "scan_messages_received": 180,
+    "map_messages_received": 180
+  },
+  "rows": {
+    "trial_results": 540,
+    "perception_trials": 180,
+    "overall_metrics": 3,
+    "condition_metrics": 18
+  },
+  "best_success_planner": "dijkstra_navfn_style",
+  "fastest_planner": "weighted_a_star"
+}
